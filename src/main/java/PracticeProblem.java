@@ -1,3 +1,10 @@
+	/**
+	* Lesson: Input
+	* Author: Weiya Liu
+	* Date Created: February 20, 2026
+	* Date Last Modified: February 20, 2026
+	*/
+
 	import java.util.Scanner; 
 
 public class PracticeProblem {
@@ -27,15 +34,21 @@ public class PracticeProblem {
 		//Write question 2 code here
 		Scanner orange = new Scanner (System.in);
 		
-		String number;
-		System.out.print("Input a whole number:");
-		number = orange.nextLine();
-		System.out.println(number);
-
+		int num;
+		System.out.print("Input a whole number: ");
+		num = orange.nextInt();
+		orange.nextLine();
+		System.out.println((num*2)+2);
 	}
 
 	public static void q3() {
 		//Write question 3 code here
+		Scanner peach = new Scanner(System.in);
+
+		double num2;
+		System.out.print("Input a radius: ");
+		num2 = input.nextDouble();
+		num2 = 
 	}
 
 	public static void q4() {
