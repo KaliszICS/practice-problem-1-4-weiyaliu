@@ -1,3 +1,5 @@
+	import java.util.Scanner; 
+
 public class PracticeProblem {
 
 	public static void main(String args[]) {
@@ -10,10 +12,26 @@ public class PracticeProblem {
 
 	public static void q1() {
 		//Write question 1 code here
+		
+		Scanner apple = new Scanner(System.in);
+
+		String name;
+		System.out.print("What is your name: ");
+		name = apple.nextLine();
+		System.out.println(name);
+		
+		apple.close();
 	}
 
 	public static void q2() {
 		//Write question 2 code here
+		Scanner orange = new Scanner (System.in);
+		
+		String number;
+		System.out.print("Input a whole number:");
+		number = orange.nextLine();
+		System.out.println(number);
+
 	}
 
 	public static void q3() {
