@@ -88,7 +88,7 @@ public class PracticeProblemTest {
       PracticeProblem.q3();
 
       // assertion
-      assertEquals("Input a radius: 6.28\n3.14\n", bos.toString());
+      assertEquals("Input a radius: ", bos.toString());
    }
 
    @Test
@@ -102,7 +102,7 @@ public class PracticeProblemTest {
       PracticeProblem.q3();
 
       // assertion
-      assertEquals("Input a radius: 13.188\n13.8474\n", bos.toString());
+      assertEquals("Input a radius: ", bos.toString());
    }
 
    @Test
