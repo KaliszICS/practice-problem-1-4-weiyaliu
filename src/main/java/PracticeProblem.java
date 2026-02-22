@@ -50,16 +50,12 @@ public class PracticeProblem {
 		System.out.print("Input a radius: ");
 		
 		radius1 = input3.nextDouble();
-		double pi = 3.14;
-		double circumference = 2*pi*radius1;
 
-		System.out.println(circumference);
+		System.out.println(2*3.14*radius1);
 
-		double area = pi*radius1*radius1;
+		System.out.println(radius1*radius1*3.14);
 
-		System.out.println(area);
-
-		input3.close();
+		input3.close(); 
 
 	}
 		
@@ -95,11 +91,11 @@ public class PracticeProblem {
 
 		age = age + 3;
 
-		System.out.println(name);
-		System.out.print(age);
+		System.out.println(name + age);
+	
 		System.out.println(iq);
 
-		input5.close();
+		input5.close(); 
 	}
 
 }
