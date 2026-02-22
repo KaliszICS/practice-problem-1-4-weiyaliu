@@ -22,10 +22,10 @@ public class PracticeProblem {
 		
 		Scanner input1 = new Scanner(System.in);
 
-		String name;
+		String name1;
 		System.out.print("What is your name: ");
-		name = input1.nextLine();
-		System.out.println(name);
+		name1 = input1.nextLine();
+		System.out.println(name1);
 		
 		input1.close();
 	}
@@ -34,9 +34,8 @@ public class PracticeProblem {
 		//Write question 2 code here
 		Scanner input2 = new Scanner (System.in);
 		
-		int num;
 		System.out.print("Input a whole number: ");
-		num = input2.nextInt();
+		int num = input2.nextInt();
 		input2.nextLine();
 		System.out.println((num*2)+2);
 
@@ -54,11 +53,11 @@ public class PracticeProblem {
 		double pi = 3.14;
 		double circumference = 2*pi*radius1;
 
-		System.out.println("Circumference: "+ circumference);
+		System.out.println(circumference);
 
 		double area = pi*radius1*radius1;
 
-		System.out.println("Area: "+ area);
+		System.out.println(area);
 
 		input3.close();
 
@@ -75,15 +74,32 @@ public class PracticeProblem {
 		String lastname = input4.nextLine();
 
 		System.out.print("Input an age: ");
-		int age = input4.nextLine;
+		int age = input4.nextInt();
 
-		System.out.println( lastname + "," + firstname + " - " + age);
+		System.out.println( lastname + ", " + firstname + " - " + age);
 
 		input4.close();
 	}
 
 	public static void q5() {
 		//Write question 5 code here
+		Scanner input5 = new Scanner(System.in);
+
+		System.out.print("Input a name: ");
+		String name = input5.nextLine();
+		
+		System.out.print("Input an age: ");
+		int age = input5.nextInt();
+
+		int iq = age;
+
+		age = age + 3;
+
+		System.out.println(name);
+		System.out.print(age);
+		System.out.println(iq);
+
+		input5.close();
 	}
 
 }
